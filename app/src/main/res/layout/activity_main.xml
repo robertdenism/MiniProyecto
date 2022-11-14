@@ -29,8 +29,8 @@
 
     <TextView
         android:id="@+id/tituloLiberi"
-        android:layout_width="252dp"
-        android:layout_height="57dp"
+        android:layout_width="263dp"
+        android:layout_height="70dp"
         android:gravity="center"
         android:text="LIBERI"
         android:textSize="45dp"
@@ -50,7 +50,8 @@
         android:id="@+id/textoSlogan"
         android:layout_width="215dp"
         android:layout_height="30dp"
-        android:text="Slogan"
+        android:gravity="center"
+        android:text="Porque el ocio puede ser gratis"
         app:layout_constraintBottom_toTopOf="@+id/guideline6"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,8 +59,8 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycledViewprincipal"
-        android:layout_width="402dp"
-        android:layout_height="538dp"
+        android:layout_width="401dp"
+        android:layout_height="530dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -7,7 +7,7 @@ public class Datos {
 
     public String ocio;
 
-    private static ArrayList<String> countries = new ArrayList<String>(Arrays.asList(new String[]{"Teatro","Conciertos","Deportes","Museos"};
+    //private static ArrayList<String> countries = new ArrayList<String>(Arrays.asList(new String[]{"Teatro","Conciertos","Deportes","Museos"};
 
 
 

@@ -1,6 +1,7 @@
 package com.example.miniproyecto;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
@@ -12,6 +13,8 @@ public class LiberiIndex extends AppCompatActivity {
     RecyclerView reyclerViewUser;
     Button mas;
     Adapter adapter;
+
+    static String [] listado = {"Teatro","Museos","Música","Deportes","Cine","+PLanes"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,16 +29,14 @@ public class LiberiIndex extends AppCompatActivity {
 
             // use this setting to improve performance if you know that changes
             // in content do not change the layout size of the RecyclerView
-            reyclerViewUser.setHasFixedSize(true);
+            LinearLayoutManager layoutManager = new LinearLayoutManager(this.getApplicationContext());
+            reyclerViewUser.setLayoutManager(layoutManager);
 
             // use a linear layout manager
-            reyclerViewUser.setLayoutManager(new LiberiIndex(this));
 
             // specify an adapter with the list to show
-            mAdapter = new UserAdapter(getData());
-            reyclerViewUser.setAdapter(mAdapter);
+            adapter = new Adapter(LiberiIndex.listado);
+            reyclerViewUser.setAdapter(adapter);
 
         }
-
     }
-}

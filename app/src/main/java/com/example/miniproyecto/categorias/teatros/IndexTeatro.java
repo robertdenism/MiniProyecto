@@ -1,4 +1,4 @@
-package com.example.miniproyecto.categorias.cine;
+package com.example.miniproyecto.categorias.teatros;
 
 import androidx.appcompat.app.AppCompatActivity;
 

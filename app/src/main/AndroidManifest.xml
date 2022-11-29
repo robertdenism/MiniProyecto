@@ -14,38 +14,30 @@
         android:theme="@style/Theme.MiniProyecto"
         tools:targetApi="31">
         <activity
-            android:name=".AdapterCine"
+            android:name=".categorias.cines.AdapterCine"
             android:exported="false" />
         <activity
-            android:name=".IndexCine"
+            android:name=".categorias.cines.IndexCine"
             android:exported="false" />
         <activity
-            android:name=".IndexMusica"
+            android:name=".categorias.musica.IndexMusica"
             android:exported="false" />
         <activity
-            android:name=".AdapterMusica"
+            android:name=".categorias.musica.AdapterMusica"
             android:exported="false" />
         <activity
-            android:name=".IndexMuseo"
+            android:name=".categorias.museo.IndexMuseo"
             android:exported="false" />
         <activity
-            android:name=".AdapterMuseo"
+            android:name=".categorias.museo.AdapterMuseo"
             android:exported="false" />
         <activity
-            android:name=".AdapterDeportes"
+            android:name=".categorias.deportes.AdapterDeportes"
             android:exported="false" />
         <activity
-            android:name=".IndexTeatro"
+            android:name=".categorias.teatros.IndexTeatro"
             android:exported="false" />
-        <activity
-            android:name=".AdapterTeatro"
-            android:exported="false" />
-        <activity
-            android:name=".IndexCategorias"
-            android:exported="false" />
-        <activity
-            android:name=".AdapterCategorias"
-            android:exported="false" />
+
         <activity
             android:name=".LiberiIndex"
             android:exported="true">

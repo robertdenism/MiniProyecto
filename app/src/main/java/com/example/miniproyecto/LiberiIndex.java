@@ -22,8 +22,7 @@ public class LiberiIndex extends AppCompatActivity {
 
     Button mas, boton1;
 
-    static String [] listado = {"Teatro","Museos","Música","Deportes","Cine"};
-    //static List<String> listado;
+    public static String [] listado = {"Teatros","Museos","Música","Deportes","Cine"};
 
 
     @Override
@@ -42,4 +41,5 @@ public class LiberiIndex extends AppCompatActivity {
             reyclerViewUser.setAdapter(adapter);
 
         }
+
     }

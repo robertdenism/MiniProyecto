@@ -7,21 +7,18 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.List;
+
 public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
 
     private String[] localDataSet;
 
-    /**
-     * Provide a reference to the type of views that you are using
-     * (custom ViewHolder).
-     */
     public static class ViewHolder extends RecyclerView.ViewHolder {
         private final TextView textView;
 
         public ViewHolder(View view) {
             super(view);
             // Define click listener for the ViewHolder's View
-
             textView = (TextView) view.findViewById(R.id.nombreOcio);
         }
 
@@ -30,12 +27,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
         }
     }
 
-    /**
-     * Initialize the dataset of the Adapter.
-     *
-     * @param dataSet String[] containing the data to populate views to be used
-     * by RecyclerView.
-     */
+
     public Adapter(String[] dataSet) {
         localDataSet = dataSet;
     }
@@ -62,6 +54,9 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
     // Return the size of your dataset (invoked by the layout manager)
     @Override
     public int getItemCount() {
+
         return localDataSet.length;
     }
+
+
 }

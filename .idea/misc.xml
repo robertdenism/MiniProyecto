@@ -4,15 +4,21 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Perfiles/at9DAM2/Desktop/Robert2/DI/practicas/MiniProyecto/app/src/main/res/layout/activity_adapter_categorias.xml" value="0.33" />
+        <entry key="..\:/Perfiles/at9DAM2/Desktop/Robert2/DI/practicas/MiniProyecto/app/src/main/res/layout/activity_adapter_cine.xml" value="0.17831813576494426" />
+        <entry key="..\:/Perfiles/at9DAM2/Desktop/Robert2/DI/practicas/MiniProyecto/app/src/main/res/layout/activity_adapter_deportes.xml" value="0.17831813576494426" />
+        <entry key="..\:/Perfiles/at9DAM2/Desktop/Robert2/DI/practicas/MiniProyecto/app/src/main/res/layout/activity_adapter_museo.xml" value="0.17831813576494426" />
+        <entry key="..\:/Perfiles/at9DAM2/Desktop/Robert2/DI/practicas/MiniProyecto/app/src/main/res/layout/activity_adapter_teatro.xml" value="0.17831813576494426" />
+        <entry key="..\:/Perfiles/at9DAM2/Desktop/Robert2/DI/practicas/MiniProyecto/app/src/main/res/layout/activity_aniadir_mas_teatros.xml" value="0.33" />
         <entry key="..\:/Perfiles/at9DAM2/Desktop/Robert2/DI/practicas/MiniProyecto/app/src/main/res/layout/activity_index_categorias.xml" value="0.33" />
+        <entry key="..\:/Perfiles/at9DAM2/Desktop/Robert2/DI/practicas/MiniProyecto/app/src/main/res/layout/activity_index_cine.xml" value="0.17831813576494426" />
+        <entry key="..\:/Perfiles/at9DAM2/Desktop/Robert2/DI/practicas/MiniProyecto/app/src/main/res/layout/activity_index_deportes.xml" value="0.17831813576494426" />
+        <entry key="..\:/Perfiles/at9DAM2/Desktop/Robert2/DI/practicas/MiniProyecto/app/src/main/res/layout/activity_index_museo.xml" value="0.17831813576494426" />
+        <entry key="..\:/Perfiles/at9DAM2/Desktop/Robert2/DI/practicas/MiniProyecto/app/src/main/res/layout/activity_index_musica.xml" value="0.17831813576494426" />
+        <entry key="..\:/Perfiles/at9DAM2/Desktop/Robert2/DI/practicas/MiniProyecto/app/src/main/res/layout/activity_index_teatro.xml" value="0.33" />
         <entry key="..\:/Perfiles/at9DAM2/Desktop/Robert2/DI/practicas/MiniProyecto/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Perfiles/at9DAM2/Desktop/Robert2/DI/practicas/MiniProyecto/app/src/main/res/layout/activity_nombre_ocio.xml" value="0.33" />
-        <entry key="..\:/Users/robert/Desktop/DAM2223/MiniProyecto/app/src/main/res/drawable/bg_colo.xml" value="0.178" />
-        <entry key="..\:/Users/robert/Desktop/DAM2223/MiniProyecto/app/src/main/res/layout/activity_adapter_teatro.xml" value="0.33" />
-        <entry key="..\:/Users/robert/Desktop/DAM2223/MiniProyecto/app/src/main/res/layout/activity_index_teatro.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/robert/Desktop/DAM2223/MiniProyecto/app/src/main/res/layout/activity_log_in.xml" value="0.25679347826086957" />
-        <entry key="..\:/Users/robert/Desktop/DAM2223/MiniProyecto/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/robert/Desktop/DAM2223/MiniProyecto/app/src/main/res/layout/activity_nombre_ocio.xml" value="0.1" />
+        <entry key="..\:/Users/robert/Desktop/DAM2223/MiniProyecto/app/src/main/res/layout/activity_main.xml" value="0.1272644927536232" />
+        <entry key="..\:/Users/robert/Desktop/DAM2223/MiniProyecto/app/src/main/res/layout/activity_nombre_ocio.xml" value="0.5" />
       </map>
     </option>
   </component>

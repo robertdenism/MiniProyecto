@@ -38,10 +38,14 @@ public class LiberiIndex extends AppCompatActivity {
             });
             reyclerViewUser.setAdapter(adapter);
 
+            Intent intento = getIntent();
+
         }
         public void abrirNueva(ListadoOcios item){
             Intent intento = new Intent(this, IndexTeatro.class);
             startActivity(intento);
         }
+
+
 
     }

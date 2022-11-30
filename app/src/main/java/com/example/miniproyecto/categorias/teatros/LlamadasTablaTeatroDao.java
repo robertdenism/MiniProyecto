@@ -15,8 +15,8 @@ public interface LlamadasTablaTeatroDao {
     @Query("SELECT * FROM Tablas_Teatro WHERE uid IN (:userIds)")
     List<TablasTeatro> loadAllByIds(int[] userIds);
 
-    @Query("SELECT * FROM Tablas_Teatro WHERE TituloOcio LIKE :first AND " +
-            "DireccionOcio LIKE :last LIMIT 1")
+    @Query("SELECT * FROM Tablas_Teatro WHERE TituloTeatro LIKE :first AND " +
+            "DireccionTeatro LIKE :last LIMIT 1")
     TablasTeatro findByName(String first, String last);
 
     @Insert

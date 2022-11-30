@@ -15,19 +15,20 @@ public class TablasTeatro {
     @NotNull
     public String uid;
 
-    @ColumnInfo(name = "TituloOcio")
-    public String tituloOcio;
+    @ColumnInfo(name = "TituloTeatro")
+    public String tituloTeatro;
 
-    @ColumnInfo(name = "CategoriaOcio")
-    public String categoriaOcio;
+    @ColumnInfo(name = "CategoriaTeatro")
+    public String categoriaTeatro;
 
-    @ColumnInfo(name = "DescripcionOcio")
-    public String descripciopnOcio;
+    @ColumnInfo(name = "DescripcionTeatro")
+    public String descripciopnTeatro;
 
-    @ColumnInfo(name = "DireccionOcio")
-    public String direccionaOcio;
+    @ColumnInfo(name = "DireccionTeatro")
+    public String direccionaTeatro;
 
     public TablasTeatro() {
+
         uid = UUID.randomUUID().toString();
     }
 }

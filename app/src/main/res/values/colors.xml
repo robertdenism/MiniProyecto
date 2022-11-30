@@ -7,4 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="gris_o">#262626</color>
+    <color name="rojo">#CB3234</color>
+    <color name="gris_c">#F4F4F4</color>
+    <color name="naranja">#E6621F</color>
+    <color name="c_Numeros">#898989</color>
+    <color name="resto">#333333</color>
+    <color name="verdeboton">#18DD4A</color>
+
 </resources>
